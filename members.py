@@ -7,13 +7,15 @@ class Member(object):
     def __repr__(self):
         return "<Person: name: {}>".format(self.name)
 
-Womans = set(['Батырова'])
-Males = set(['Василец',
+Womans = set(['Бубнова',
+             'Виноградова',
+             'Ткачева'])
+Males = set(['Авраменко',
+             'Герасимов',
+             'Дятлов',
+             'Еналеев',
              'Лебедев',
-             'Лидский',
-             'Начевский',
-             'Пименов',
-             'Яничкин'])
+             'Малышев'])
 
 assert len(Womans.intersection(Males)) == 0
 
