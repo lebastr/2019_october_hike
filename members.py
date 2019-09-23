@@ -29,7 +29,7 @@ for m in MembersList:
     s = "{} = Member('{}'); Members['{}'] = {}".format(m, m, m, m)
     exec(s)
 
-print(MembersList)
+print(sorted(MembersList))
     
 print("Количество участников: {}".format(NMembers))
 print("Количество женщин: {}".format(NWomans))
