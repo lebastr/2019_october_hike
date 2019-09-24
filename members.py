@@ -17,6 +17,8 @@ Males = set(['Авраменко',
              'Лебедев',
              'Малышев'])
 
+WomanShareEqMaxWeight = 1000
+
 assert len(Womans.intersection(Males)) == 0
 
 MembersList = Womans.union(Males)
@@ -33,3 +35,4 @@ print(sorted(MembersList))
     
 print("Количество участников: {}".format(NMembers))
 print("Количество женщин: {}".format(NWomans))
+print("Сколько максимум несет девушка общака: {}".format(WomanShareEqMaxWeight))
