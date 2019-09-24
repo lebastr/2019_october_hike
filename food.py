@@ -101,7 +101,7 @@ def group_by_members(table, fname=None):
             print("\n\n")
 
     if fname is not None:
-        with open("food.txt", 'w') as f:
+        with open(fname, 'w') as f:
             f.write("Дата создания: {}\n\n".format(datetime.datetime.now()))
             for a, b in table.groupby(['Кто несет']):
                 f.write("Участник: {}, несет: {}\n".format(a, b['weight'].sum()))
