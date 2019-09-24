@@ -1,5 +1,5 @@
 #+TITLE: Проект похода
-#+OPTIONS: toc:1  html-style:nil
+#+OPTIONS: toc:nil  html-style:nil
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="org.css" />
 #+HTML_HEAD_EXTRA: <style>.org-src-container {background-color: #303030; color: #e5e5e5;}</style>
 
