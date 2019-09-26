@@ -158,7 +158,7 @@
    [[http://static.turclubmai.ru/papers/2398/p2.jpg]]
 ** Сладости
    #+CAPTION: "Продукты"
-   [[./img/sokol.jpg]]
+   [[./img/sokol.png]]
 
    Покупаем всегда [[https://yandex.ru/maps/-/CGgQRCil][тут]]. Нужно купить: "Узбекскую халву", "Кос. халву",
    "Фисташковую халву" - лучше всего всех по 2 шт. Можно сразу
